@@ -604,3 +604,108 @@ footer p{
     background:var(--primary-dark);
 
 }
+
+/* ==========================================
+   Video Rows
+========================================== */
+
+.video-platform-title {
+
+    font-family:Georgia, serif;
+
+    color:var(--primary);
+
+    margin-top:50px;
+
+    margin-bottom:20px;
+
+}
+
+
+.video-row {
+
+    display:flex;
+
+    gap:25px;
+
+    overflow-x:auto;
+
+    padding:15px 5px 25px;
+
+}
+
+
+.video-card {
+
+    min-width:260px;
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+
+.video-thumbnail {
+
+    height:150px;
+
+    background:#1B1B1B;
+
+    border-radius:8px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:15px;
+
+}
+
+
+.video-thumbnail span {
+
+    font-size:40px;
+
+    color:var(--gold);
+
+}
+
+
+.video-card h4 {
+
+    font-family:Georgia, serif;
+
+    color:var(--primary);
+
+    margin-bottom:8px;
+
+}
+
+
+.video-card p {
+
+    color:var(--muted);
+
+    margin-bottom:15px;
+
+}
+
+
+.video-card a {
+
+    color:var(--gold);
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+}
