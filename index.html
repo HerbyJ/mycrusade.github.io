@@ -99,25 +99,28 @@
 
 
     <h3 class="video-platform-title">
-        Instagram Reels
+        Instagram/Facebook Reels
     </h3>
 
-    <div id="reelsContainer" class="video-row">
+    <div class="video-carousel">
 
-        <!-- Reels will load here -->
-        <div class="video-card">
+        <button 
+            class="carousel-button left"
+            onclick="scrollVideos('reelsContainer', -450)">
+            ←
+        </button>
 
-            <img src="thumbnail.jpg">
 
-            <h4>
-                A message about perseverance
-            </h4>
-
-            <a href="INSTAGRAM_REEL_URL">
-                Watch Reel →
-            </a>
+        <div id="reelsContainer" class="video-row">
 
         </div>
+
+
+        <button 
+            class="carousel-button right"
+            onclick="scrollVideos('reelsContainer', 450)">
+            →
+        </button>
 
     </div>
 
@@ -127,22 +130,25 @@
         TikTok
     </h3>
 
-    <div id="tiktokContainer" class="video-row">
+    <div class="video-carousel">
 
-        <!-- TikToks will load here -->
-        <div class="video-card">
+        <button 
+            class="carousel-button left"
+            onclick="scrollVideos('tiktokContainer', -450)">
+            ←
+        </button>
 
-            <img src="thumbnail.jpg">
 
-            <h4>
-                A message about perseverance
-            </h4>
-
-            <a href="INSTAGRAM_REEL_URL">
-                Watch Reel →
-            </a>
+        <div id="tiktokContainer" class="video-row">
 
         </div>
+
+
+        <button 
+            class="carousel-button right"
+            onclick="scrollVideos('tiktokContainer', 450)">
+            →
+        </button>
 
     </div>
 
@@ -152,22 +158,25 @@
         YouTube
     </h3>
 
-    <div id="youtubeContainer" class="video-row">
+    <div class="video-carousel">
 
-        <!-- YouTube videos will load here -->
-        <div class="video-card">
+        <button 
+            class="carousel-button left"
+            onclick="scrollVideos('youtubeContainer', -450)">
+            ←
+        </button>
 
-            <img src="thumbnail.jpg">
 
-            <h4>
-                A message about perseverance
-            </h4>
-
-            <a href="INSTAGRAM_REEL_URL">
-                Watch Reel →
-            </a>
+        <div id="youtubeContainer" class="video-row">
 
         </div>
+
+
+        <button 
+            class="carousel-button right"
+            onclick="scrollVideos('youtubeContainer', 450)">
+            →
+        </button>
 
     </div>
 
@@ -312,6 +321,9 @@
 <script src="js/small-wins.js"></script>
 <script src="js/videos.js"></script>
 <script src="js/main.js"></script>
+
+<script async src="https://www.instagram.com/embed.js"></script>
+<script async src="https://www.tiktok.com/embed.js"></script>
 
 </body>
 </html>

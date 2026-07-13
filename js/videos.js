@@ -1,6 +1,6 @@
 // ======================================
 // My Crusade
-// Encouraging Videos Loader
+// Embedded Video Loader
 // ======================================
 
 
@@ -13,30 +13,31 @@ async function loadVideos() {
     const youtube = await loadData("data/youtube.json");
 
 
-    displayVideos(
+    createVideoEmbeds(
         reels,
         "reelsContainer"
     );
 
 
-    displayVideos(
+    createVideoEmbeds(
         tiktoks,
         "tiktokContainer"
     );
 
 
-    displayVideos(
+    createVideoEmbeds(
         youtube,
         "youtubeContainer"
     );
+
 
 }
 
 
 
-// Create video cards
+// Create embeds
 
-function displayVideos(videos, containerID) {
+function createVideoEmbeds(videos, containerID) {
 
 
     const container =
@@ -56,51 +57,138 @@ function displayVideos(videos, containerID) {
     videos.forEach(video => {
 
 
-        const card =
+        const wrapper =
             document.createElement("div");
 
 
-        card.className = "video-card";
+        wrapper.className =
+            "embedded-video";
 
 
-        card.innerHTML = `
-
-            <div class="video-thumbnail">
-
-                <span>
-                    ▶
-                </span>
-
-            </div>
-
+        wrapper.innerHTML = `
 
             <h4>
                 ${video.title}
             </h4>
 
-
-            <p>
-                ${video.creator}
-            </p>
-
-
-            <a href="${video.url}"
-               target="_blank">
-
-                Watch →
-
-            </a>
+            ${createEmbed(video)}
 
         `;
 
 
-        container.appendChild(card);
+        container.appendChild(wrapper);
 
 
     });
 
 }
 
+
+
+// Determine embed type
+
+function createEmbed(video) {
+
+
+    switch(video.platform) {
+
+
+        case "youtube":
+
+            return `
+
+            <iframe
+
+                src="${video.embed}"
+
+                title="${video.title}"
+
+                frameborder="0"
+
+                allowfullscreen>
+
+            </iframe>
+
+            `;
+
+
+
+        case "instagram":
+
+            return `
+
+            <blockquote
+
+                class="instagram-media"
+
+                data-instgrm-permalink="${video.url}"
+
+                data-instgrm-version="14">
+
+            </blockquote>
+
+            `;
+
+
+
+        case "tiktok":
+
+            return `
+
+            <blockquote
+
+                class="tiktok-embed"
+
+                cite="${video.url}"
+
+                data-video-id="${video.id}">
+
+            </blockquote>
+
+            `;
+
+
+
+        default:
+
+            return `
+
+            <p>
+                Video format not supported.
+            </p>
+
+            `;
+
+    }
+
+}
+
+// ======================================
+// Carousel Navigation
+// ======================================
+
+function scrollVideos(containerID, amount) {
+
+    const container =
+        document.getElementById(containerID);
+
+
+    if (!container) {
+
+        return;
+
+    }
+
+
+    container.scrollBy({
+
+        left: amount,
+
+        behavior: "smooth"
+
+    });
+
+}
 
 
 // Initialize
