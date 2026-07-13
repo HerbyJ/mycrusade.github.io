@@ -1,0 +1,82 @@
+[
+    {
+        "text": "Drink a glass of water.",
+        "category": "health"
+    },
+    {
+        "text": "Step outside and feel the sunlight.",
+        "category": "nature"
+    },
+    {
+        "text": "Take a short walk.",
+        "category": "movement"
+    },
+    {
+        "text": "Make your bed.",
+        "category": "environment"
+    },
+    {
+        "text": "Send someone a kind message.",
+        "category": "connection"
+    },
+    {
+        "text": "Listen to a song that lifts your mood.",
+        "category": "music"
+    },
+    {
+        "text": "Write down one thing you are grateful for.",
+        "category": "gratitude"
+    },
+    {
+        "text": "Take five slow breaths.",
+        "category": "calm"
+    },
+    {
+        "text": "Read one page of a book.",
+        "category": "growth"
+    },
+    {
+        "text": "Clean one small area around you.",
+        "category": "environment"
+    },
+    {
+        "text": "Stretch for two minutes.",
+        "category": "movement"
+    },
+    {
+        "text": "Smile at yourself in the mirror.",
+        "category": "self-kindness"
+    },
+    {
+        "text": "Spend five minutes without your phone.",
+        "category": "mindfulness"
+    },
+    {
+        "text": "Look at something beautiful in nature.",
+        "category": "nature"
+    },
+    {
+        "text": "Forgive yourself for one mistake.",
+        "category": "healing"
+    },
+    {
+        "text": "Do one thing your future self will appreciate.",
+        "category": "purpose"
+    },
+    {
+        "text": "Say something encouraging to someone else.",
+        "category": "kindness"
+    },
+    {
+        "text": "Write down a goal you want to accomplish.",
+        "category": "purpose"
+    },
+    {
+        "text": "Take a few minutes to pray or reflect.",
+        "category": "faith"
+    },
+    {
+        "text": "Remember one difficult thing you already overcame.",
+        "category": "resilience"
+    }
+]

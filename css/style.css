@@ -495,3 +495,73 @@ footer p{
     background:var(--primary-dark);
 
 }
+
+/* ==========================================
+   Small Wins
+========================================== */
+
+.section-intro {
+
+    text-align:center;
+
+    color:var(--muted);
+
+    margin-bottom:30px;
+
+}
+
+
+.small-wins {
+
+    max-width:600px;
+
+    margin:0 auto 30px;
+
+    padding-left:30px;
+
+}
+
+
+.small-wins li {
+
+    background:white;
+
+    padding:15px;
+
+    margin-bottom:12px;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+}
+
+
+#newSmallWinsButton {
+
+    display:block;
+
+    margin:auto;
+
+    padding:14px 28px;
+
+    border:none;
+
+    border-radius:999px;
+
+    background:var(--primary);
+
+    color:white;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+
+
+#newSmallWinsButton:hover {
+
+    background:var(--primary-dark);
+
+}
