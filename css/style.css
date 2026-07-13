@@ -109,7 +109,7 @@ header{
 
 .logo h3{
 
-    color:var(--white);
+    color:white;
 
 }
 
@@ -127,7 +127,7 @@ header{
 
     text-decoration:none;
 
-    color:var(--white);
+    color:white;
 
     font-weight:500;
 
@@ -137,7 +137,7 @@ header{
 
 .nav-links a:hover{
 
-    color:var(--primary);
+    color:var(--gold);
 
 }
 
@@ -266,26 +266,38 @@ header{
 } */
 
 /* ==========================================
-   Quote
+   Hope Quote
 ========================================== */
 
-blockquote{
-
-    background:white;
-
-    border-left:6px solid var(--primary);
-
-    padding:30px;
-
-    border-radius:var(--radius);
-
-    box-shadow:var(--shadow);
-
-    font-size:1.3rem;
+.hope-quote {
 
     text-align:center;
 
-    margin-bottom:25px;
+    padding:30px;
+
+}
+
+
+.quote-text {
+
+    font-family:Georgia, serif;
+
+    font-size:1.8rem;
+
+    font-style:italic;
+
+    color:var(--text);
+
+    margin-bottom:15px;
+
+}
+
+
+.quote-author {
+
+    color:var(--muted);
+
+    font-size:1rem;
 
 }
 
@@ -465,7 +477,7 @@ footer p{
 
 .nav-links a.active{
 
-    color:var(--primary);
+    color:var(--gold);
 
     font-weight:700;
 

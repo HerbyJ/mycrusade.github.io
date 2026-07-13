@@ -59,13 +59,13 @@ function displayQuote() {
 
     quoteElement.innerHTML = `
 
-        <p>
+        <p class="quote-text">
             "${quote.text}"
         </p>
 
-        <footer>
+        <p class="quote-author">
             — ${quote.author}
-        </footer>
+        </p>
 
     `;
 
