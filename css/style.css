@@ -107,6 +107,12 @@ header{
 
 }
 
+.logo h3{
+
+    color:var(--white);
+
+}
+
 .nav-links{
 
     list-style:none;
@@ -121,7 +127,7 @@ header{
 
     text-decoration:none;
 
-    color:var(--text);
+    color:var(--white);
 
     font-weight:500;
 
