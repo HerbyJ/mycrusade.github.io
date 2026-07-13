@@ -120,71 +120,6 @@ header{
 
 }
 
-/* ==========================================
-   Hero
-========================================== */
-
-.hero{
-
-    min-height:85vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    text-align:center;
-
-    padding:60px 25px;
-
-    background:linear-gradient(
-        135deg,
-        #1E3A8A,
-        #2563EB
-    );
-
-    color:white;
-
-}
-
-.hero-content{
-
-    max-width:750px;
-
-}
-
-.hero h1{
-
-    font-size:3.4rem;
-
-    line-height:1.2;
-
-    margin-bottom:20px;
-
-}
-
-.hero p{
-
-    font-size:1.2rem;
-
-    margin-bottom:35px;
-
-    opacity:.92;
-
-}
-
-.hero-buttons{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:18px;
-
-    flex-wrap:wrap;
-
-}
 
 /* ==========================================
    Buttons
@@ -262,9 +197,10 @@ header{
 
 /* ==========================================
    Mood Grid
+   Good idea, but not used for now. 
 ========================================== */
 
-.mood-grid{
+/* .mood-grid{
 
     display:grid;
 
@@ -302,7 +238,7 @@ header{
 
     color:white;
 
-}
+} */
 
 /* ==========================================
    Quote
@@ -411,40 +347,6 @@ blockquote{
     color:var(--primary);
 
     font-weight:600;
-
-}
-
-/* ==========================================
-   Checklist
-========================================== */
-
-.checklist{
-
-    list-style:none;
-
-    max-width:600px;
-
-    margin:auto;
-
-}
-
-.checklist li{
-
-    background:white;
-
-    padding:18px;
-
-    margin-bottom:14px;
-
-    border-radius:var(--radius);
-
-    box-shadow:var(--shadow);
-
-}
-
-.checklist input{
-
-    margin-right:12px;
 
 }
 
