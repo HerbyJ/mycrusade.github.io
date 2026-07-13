@@ -1,48 +1,315 @@
----
-layout: default
-title: My Crusade
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="hero">
-    <h1>Welcome to My Crusade</h1>
+    <title>My Crusade | One More Step Forward</title>
 
-    <p>
-        A site to help you if you are feeling down.
-    </p>
+    <meta name="description"
+          content="A place for hope, encouragement, motivation, and healing.">
 
-    <p>
-        This site contains videos and links that have helped me and others when we were at our lowest.
-    </p>
-    
-</div>
+    <link rel="stylesheet" href="css/style.css">
 
-<hr>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<section>
-    <h2>Helpful Videos and Links</h2>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
 
-    <p>
-        Explore resources that may provide encouragement, perspective,
-        and support during difficult times.
-    </p>
+<body>
 
-    <ul>
-        <li>
-            <a href="https://www.youtube.com/" target="_blank">
-                YouTube Resources
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <h2>My Crusade</h2>
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="#hope">Hope</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#places">Places</a></li>
+            <li><a href="#read">Read</a></li>
+            <li><a href="#community">Community</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+<!-- Hero -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            One More Step.
+            <br>
+            One More Day.
+        </h1>
+
+        <p>
+
+            If today feels heavy,
+            you don't have to carry it alone.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#mood" class="button primary">
+                I'm Struggling
             </a>
-        </li>
 
-        <li>
-            <a href="https://www.facebook.com/" target="_blank">
-                Facebook Community Links
+            <a href="#videos" class="button secondary">
+                Encourage Me
             </a>
-        </li>
 
-        <li>
-            <a href="https://www.tiktok.com/" target="_blank">
-                TikTok Motivation Videos
-            </a>
-        </li>
-    </ul>
+        </div>
+
+    </div>
+
 </section>
+
+<!-- Mood -->
+
+<section id="mood" class="section">
+
+    <h2>How are you feeling?</h2>
+
+    <div class="mood-grid">
+
+        <button>😔 Sad</button>
+        <button>😰 Anxious</button>
+        <button>😞 Lonely</button>
+        <button>😩 Overwhelmed</button>
+        <button>😡 Angry</button>
+        <button>😴 Burned Out</button>
+        <button>🙏 Need Hope</button>
+        <button>😊 Just Browsing</button>
+
+    </div>
+
+</section>
+
+<!-- Quote -->
+
+<section id="hope" class="section">
+
+    <h2>Today's Encouragement</h2>
+
+    <blockquote id="dailyQuote">
+
+        Every storm eventually runs out of rain.
+
+    </blockquote>
+
+    <button id="newQuoteButton">
+
+        New Quote
+
+    </button>
+
+</section>
+
+<!-- Videos -->
+
+<section id="videos" class="section">
+
+    <h2>Encouraging Videos</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+
+            <h3>Instagram Reels</h3>
+
+            <p>
+
+                Short moments of encouragement,
+                hope and inspiration.
+
+            </p>
+
+            <a href="reels.html">
+
+                Browse →
+
+            </a>
+
+        </div>
+
+        <div class="card">
+
+            <h3>TikTok</h3>
+
+            <p>
+
+                Motivational creators,
+                stories,
+                and uplifting clips.
+
+            </p>
+
+            <a href="tiktok.html">
+
+                Browse →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Places -->
+
+<section id="places" class="section">
+
+    <h2>Places That Help You Breathe</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+
+            <h3>Nature</h3>
+
+            <p>
+
+                Parks, lakes,
+                mountains,
+                forests,
+                and quiet places.
+
+            </p>
+
+            <a href="places.html">
+
+                Explore →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Reading -->
+
+<section id="read" class="section">
+
+    <h2>Read Something Encouraging</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+
+            <h3>Articles</h3>
+
+            <p>
+
+                Hope-filled reading,
+                wisdom,
+                and practical advice.
+
+            </p>
+
+            <a href="read.html">
+
+                Read →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Community -->
+
+<section id="community" class="section">
+
+    <h2>You Are Not Alone</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+
+            <h3>Community Stories</h3>
+
+            <p>
+
+                Read anonymous stories from people
+                who kept going.
+
+            </p>
+
+            <a href="community.html">
+
+                Visit →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Small Wins -->
+
+<section class="section">
+
+    <h2>Today's Small Wins</h2>
+
+    <ul class="checklist">
+
+        <li><input type="checkbox"> Drink a glass of water</li>
+        <li><input type="checkbox"> Go outside for 10 minutes</li>
+        <li><input type="checkbox"> Take a shower</li>
+        <li><input type="checkbox"> Send one encouraging text</li>
+        <li><input type="checkbox"> Take five deep breaths</li>
+
+    </ul>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>
+
+        Keep Going.
+
+    </p>
+
+    <p>
+
+        You matter more than you know.
+
+    </p>
+
+    <p>
+
+        © 2026 My Crusade
+
+    </p>
+
+</footer>
+
+<script src="js/quotes.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
