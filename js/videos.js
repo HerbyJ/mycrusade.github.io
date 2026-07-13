@@ -81,6 +81,10 @@ function createVideoEmbeds(videos, containerID) {
 
     });
 
+    if (window.instgrm) {
+        window.instgrm.Embeds.process();
+    }
+
 }
 
 
@@ -126,6 +130,30 @@ function createEmbed(video) {
                 data-instgrm-version="14">
 
             </blockquote>
+
+            `;
+        
+        case "facebook":
+
+            return `
+
+                <iframe
+
+                    src="https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(video.url)}&show_text=false"
+
+                    width="500"
+
+                    height="500"
+
+                    style="border:none;overflow:hidden"
+
+                    scrolling="no"
+
+                    frameborder="0"
+
+                    allowfullscreen="true">
+
+                </iframe>
 
             `;
 
