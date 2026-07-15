@@ -834,3 +834,77 @@ footer p{
     }
 
 }
+
+/* ==========================================
+   Welcome Section
+========================================== */
+
+#welcome {
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+}
+
+#welcome .hero-content {
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+#welcome h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: 3rem;
+
+    color: var(--gold);
+
+    margin-bottom: 35px;
+
+}
+
+.welcome-text {
+
+    font-size: 1.15rem;
+
+    line-height: 1.9;
+
+    margin-bottom: 25px;
+
+    color: white;
+
+}
+
+.hero-button {
+
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 15px 35px;
+
+    background: var(--gold);
+
+    color: #2B2118;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    border-radius: 999px;
+
+    transition: .25s;
+
+}
+
+.hero-button:hover {
+
+    background: #E2BE4A;
+
+    transform: translateY(-2px);
+
+}
