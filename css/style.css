@@ -204,9 +204,9 @@ header{
 
     max-width:1200px;
 
-    /* margin:auto; */
+    margin:auto;
 
-    padding:80px 25px;
+    padding: 40px 20px;
 
 }
 
@@ -217,6 +217,8 @@ header{
     margin-bottom:40px;
 
     font-size:2rem;
+
+    margin-bottom: 20px;
 
 }
 
