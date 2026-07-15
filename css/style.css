@@ -875,29 +875,7 @@ footer p{
 
     margin-bottom: 25px;
 
-    color: white;
-
-}
-
-.hero-button {
-
-    display: inline-block;
-
-    margin-top: 25px;
-
-    padding: 15px 35px;
-
-    background: var(--gold);
-
-    color: #2B2118;
-
-    text-decoration: none;
-
-    font-weight: bold;
-
-    border-radius: 999px;
-
-    transition: .25s;
+    color:var(--text);
 
 }
 

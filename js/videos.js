@@ -207,16 +207,6 @@ function createEmbed(video) {
             <script async src="//www.instagram.com/embed.js"></script>
 
             `;
-
-            // <blockquote
-
-            //     class="instagram-media"
-
-            //     data-instgrm-permalink="${video.url}"
-
-            //     data-instgrm-version="14">
-
-            // </blockquote>
         
         case "facebook":
 
